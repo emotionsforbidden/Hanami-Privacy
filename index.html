@@ -210,11 +210,10 @@ const T = {
           <li>Moderation and security records: who did what, when, the type of action and its reason.</li>
           <li>Support requests, appeals and any materials you attach to them.</li>
           <li>Activity, game or economy data (balances, levels, inventories), only in applications that offer these features.</li>
-          <li>Payment metadata (transaction ID, product, amount, status), only if an application sells paid features. Card details are handled by the payment provider and never requested in Discord.</li>
         </ul>
-        <p>Please do not send passwords, tokens or full payment details in messages to the applications or in support requests.</p>` },
+        <p>Please do not send passwords or tokens in messages to the applications or in support requests.</p>` },
       { id: "purpose", h: "Why the data is needed", b: `
-        <p>Data is used to provide the features of each application, apply the settings chosen by server administrators, protect servers from abuse and attacks, handle support requests, process purchases, and investigate errors or disputed actions.</p>
+        <p>Data is used to provide the features of each application, apply the settings chosen by server administrators, protect servers from abuse and attacks, handle support requests, and investigate errors or disputed actions.</p>
         <p>We do not sell user data, do not share it with advertisers and do not use it for advertising or profiling. Data is not used for purposes unrelated to the features described in this policy.</p>` },
       { id: "messages", h: "Message content", b: `
         <p>Some applications have access to message content. It is processed only within these scenarios, and only in channels the application can access:</p>
@@ -232,14 +231,14 @@ const T = {
         <p>Unless an application's description says otherwise, the applications do not track individual online status, current games or presence history.</p>` },
       { id: "third", h: "Automated decisions and third parties", b: `
         <p>Automated checks (such as anti-spam or anti-nuke limits) can remove messages, roles or members according to server settings. If you believe an action was a mistake, contact the server's administrators or us (section 8).</p>
-        <p>Data may be received by the following, only to the extent needed for the relevant feature: Discord, to deliver messages and perform actions; hosting and database providers, to run the infrastructure; payment providers, to process payments. Their own terms apply to processing on their side.</p>
+        <p>Data may be received by the following, only to the extent needed for the relevant feature: Discord, to deliver messages and perform actions; hosting and database providers, to run the infrastructure. Their own terms apply to processing on their side.</p>
         <p>Data may also be disclosed when required by law or by Discord to enforce its Developer Terms of Service and Developer Policy.</p>` },
       { id: "storage", h: "Where and how long data is kept", b: `
         <p>Data is stored outside Discord, in databases and caches on servers of our hosting providers, accessible only to authorized ${C.brand} staff.</p>
         <ul>
           <li><strong>Server settings and whitelists:</strong> while the application is in the server. They are deleted within ${C.removalDeletionDays} days after the application is removed.</li>
           <li><strong>Logs, caches and security records:</strong> up to ${C.logRetentionDays} days, unless needed longer to resolve a specific dispute or appeal.</li>
-          <li><strong>Support requests and purchases:</strong> while needed to resolve the request or to keep a record of the purchase, or as required by law.</li>
+          <li><strong>Support requests:</strong> while needed to resolve the request, or as required by law.</li>
           <li><strong>Backups:</strong> deleted data may remain in backups until they are rotated.</li>
         </ul>
         <p>Data that is no longer needed for the feature it was collected for is deleted.</p>` },
@@ -288,11 +287,10 @@ const T = {
           <li>Записи модерации и безопасности: кто, что и когда сделал, тип действия и причина.</li>
           <li>Обращения в поддержку, обжалования и приложенные к ним материалы.</li>
           <li>Данные активности, игр или экономики (балансы, уровни, инвентарь) — только в приложениях с такими функциями.</li>
-          <li>Сведения о платежах (ID операции, продукт, сумма, статус) — только если приложение продаёт платные функции. Реквизиты карты обрабатывает платёжный сервис, в Discord они не запрашиваются.</li>
         </ul>
-        <p>Не отправляйте приложениям и в обращения пароли, токены и полные платёжные реквизиты.</p>` },
+        <p>Не отправляйте приложениям и в обращения пароли и токены.</p>` },
       { id: "purpose", h: "Зачем нужны данные", b: `
-        <p>Данные используются для работы функций приложений, применения настроек администраторов, защиты серверов от злоупотреблений и атак, обработки обращений и покупок, разбора ошибок и спорных действий.</p>
+        <p>Данные используются для работы функций приложений, применения настроек администраторов, защиты серверов от злоупотреблений и атак, обработки обращений, разбора ошибок и спорных действий.</p>
         <p>Мы не продаём данные пользователей, не передаём их рекламодателям и не используем для рекламы и профилирования. Данные не используются для целей, не связанных с описанными здесь функциями.</p>` },
       { id: "messages", h: "Содержимое сообщений", b: `
         <p>Некоторые приложения имеют доступ к содержимому сообщений. Оно обрабатывается только в следующих сценариях и только в доступных приложению каналах:</p>
@@ -310,14 +308,14 @@ const T = {
         <p>Если в описании приложения не указано иное, приложения не отслеживают статус «в сети», запущенные игры и историю присутствия.</p>` },
       { id: "third", h: "Автоматические решения и третьи лица", b: `
         <p>Автоматические проверки (например, анти-спам или лимиты анти-нюка) могут удалять сообщения, роли или участников согласно настройкам сервера. Если вы считаете действие ошибочным, обратитесь к администрации сервера или к нам (раздел 8).</p>
-        <p>Данные могут получать только в объёме, нужном для функции: Discord — для доставки сообщений и выполнения действий; поставщики хостинга и баз данных — для работы инфраструктуры; платёжные сервисы — для обработки оплаты. К обработке на их стороне применяются их собственные условия.</p>
+        <p>Данные могут получать только в объёме, нужном для функции: Discord — для доставки сообщений и выполнения действий; поставщики хостинга и баз данных — для работы инфраструктуры. К обработке на их стороне применяются их собственные условия.</p>
         <p>Данные также могут быть раскрыты по требованию закона или Discord для соблюдения Условий и Политики для разработчиков Discord.</p>` },
       { id: "storage", h: "Где и сколько хранятся данные", b: `
         <p>Данные хранятся вне Discord — в базах данных и кэшах на серверах наших поставщиков хостинга. Доступ есть только у уполномоченных сотрудников ${C.brand}.</p>
         <ul>
           <li><strong>Настройки сервера и белые списки:</strong> пока приложение находится на сервере. Удаляются в течение ${C.removalDeletionDays} дней после удаления приложения.</li>
           <li><strong>Журналы, кэши и записи безопасности:</strong> до ${C.logRetentionDays} дней, если не нужны дольше для разбора конкретного спора или обжалования.</li>
-          <li><strong>Обращения и покупки:</strong> пока нужны для решения вопроса или учёта покупки, либо в течение срока, требуемого законом.</li>
+          <li><strong>Обращения:</strong> пока нужны для решения вопроса, либо в течение срока, требуемого законом.</li>
           <li><strong>Резервные копии:</strong> удалённые данные могут оставаться в них до плановой ротации.</li>
         </ul>
         <p>Данные, которые больше не нужны для функции, ради которой собраны, удаляются.</p>` },
